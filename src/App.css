@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+#headphone {
+  display: none;
+  width: 50%;
+}
+
+#headphone img {
+  height: 298px;
+}
+
+@media (min-width: 670px) {
+  #headphone {
+    display: inline;
+  }
+}
+
+.delivery {
+  color: orange;
+}
+
+.delivery span {
+  color: black;
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+.delivery p {
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
+}
